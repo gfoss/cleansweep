@@ -1,8 +1,4 @@
-   __|  |                        __|                          
-  (     |   -_)   _' |    \    \__ \ \ \  \ /  -_)   -_)  _ \ 
- \___| _| \___| \__,_| _| _|   ____/  \_/\_/ \___| \___| .__/ 
-                                                        _|    
-                                   v1.74 - Updated 10/25/2012 
+CleanSweep -- v1.74 - Updated 10/25/2012 
 Greg Foss - @Heinzarelli
 http://gregfoss.com
 
