@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ################################################################################
-# script that probes 1 port within a range of IP addresses, grabs banners+source
-# By: Greg Foss -- @Heinzarelli
-# Available for download at: http://gregfoss.com
-# v1.75 - Updated 10/25/2012
+# script that probes a range of IP addresses for specific ports, grabs banners + source
+# greg.foss@owasp.org
+# https://github.com/gfoss/cleansweep
+# v1.76 - Updated 4/5/2013
 ################################################################################
 
 #banner
@@ -13,7 +13,7 @@ echo     "   __|  |                        __|                          "
 echo     "  (     |   -_)   _' |    \    \__ \ \ \  \ /  -_)   -_)  _ \ "
 echo     " \___| _| \___| \__,_| _| _|   ____/  \_/\_/ \___| \___| .__/ "
 echo     "                                                        _|    "
-echo     "                                                 version 1.75 "
+echo     "                                                 version 1.76 "
 echo     "                                          greg.foss@owasp.org "
 echo ""
 
@@ -461,7 +461,7 @@ echo     "   __|  |                        __|                          " >> ""$
 echo     "  (     |   -_)   _' |    \    \__ \ \ \  \ /  -_)   -_)  _ \ " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
 echo     " \___| _| \___| \__,_| _| _|   ____/  \_/\_/ \___| \___| .__/ " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
 echo     "                                                        _|    " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
-echo     "                                                 version 1.74 " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
+echo     "                                                 version 1.76 " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
 echo     "                                          greg.foss@owasp.org " >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
 echo "" >> ""$id"--"$network"--"`date '+%m%d%Y'`".txt"
 
